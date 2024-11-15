@@ -4,7 +4,7 @@
 This starter project was generated using the [Vite.js with TypeScript and React starter template](https://vite.dev/guide/#scaffolding-your-first-vite-project).
 
 It has the follwing added dependencies:
-- [Appwrite web SDK](Appwrite Web SDK)
+- [Appwrite web SDK](https://github.com/appwrite/sdk-for-web)
 - [React router](https://reactrouter.com/en/main) added for routing.
 
 ## Getting started
