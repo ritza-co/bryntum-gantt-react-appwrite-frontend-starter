@@ -26,9 +26,9 @@ export function useUser() {
 }
 
 export function UserProvider({ children }: { children: React.ReactNode }) {
-    const [user, setUser] = useState<Models.User<Models.Preferences> | null>(null);
-    const [error, setError] = useState<string | null>(null);
-    const [isLoading, setIsLoading] = useState<boolean>(true);
+    const [user, setUser] = useState<Models.User<Models.Preferences> | null>(null),
+        [error, setError] = useState<string | null>(null),
+        [isLoading, setIsLoading] = useState<boolean>(true);
 
     async function login(email: string, password: string) {
         try {
