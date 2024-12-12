@@ -17,7 +17,7 @@ npm install
 
 ## Running the app
 
-Use the following command to run the local dev server, as well as `vite --open --port 3000`:
+Use the following command to run the local dev server and `vite --open --port 3000`:
 
 ```sh
 npm run dev
