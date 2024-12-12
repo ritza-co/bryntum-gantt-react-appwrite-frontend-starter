@@ -1,4 +1,4 @@
-# Create a React Gantt Chart with Bryntum and Appwrite starter
+# Create a React Gantt chart with Bryntum and Appwrite starter
 
 This starter project was generated using the [Vite with TypeScript and React](https://vite.dev/guide/#scaffolding-your-first-vite-project) starter template.
 
