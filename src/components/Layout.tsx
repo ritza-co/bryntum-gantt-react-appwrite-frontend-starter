@@ -11,13 +11,13 @@ function Layout() {
                     {user?.current
                         ? (
                             <div className='logged-in-items'>
-                                <span>{user.current.email}</span>
+                                <span><b>Logged in as:</b>{user.current.email}</span>
                                 <button
                                     type="button"
                                     onClick={() => user.logout()}
                                     disabled={user.isLoading}
                                 >
-                                Logout
+                                Log Out
                                 </button>
                             </div>
                         )

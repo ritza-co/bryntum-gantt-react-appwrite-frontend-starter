@@ -44,6 +44,8 @@ main {
 nav {
   padding: 1rem;
   border-bottom: 1px solid #e0e0e7;
+  background-color: #0076f8;
+  color: #ffffff;
 }
 
 nav .logged-in-items {
@@ -58,21 +60,22 @@ nav .logged-out-item {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
   border: 1px solid transparent;
   padding: 0.6rem 1.2rem;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #0076f8;
+  background-color: #27ca37;
   color: #f9f9f9;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 button:hover {
-  border-color: #646cff;
-  background-color: #228afa;
+  border-color: #27ca37;
+  background-color: #27ca37;
 }
 
 button:focus,
